@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEEK 2 HTML ASSIGNMENT</title>
+    </head>
+    <body>
+        <h1>Ordered List with Roman Numerals</h1>
+        <h2>Countries in Africa</h2>
+        <ol type="I">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+            <li>Rwanda</li>
+            <li>Somalia</li>
+            <li>South Africa</li>
+            <li>Ghana</li>
+            <li>Nigeria</li>
+        </ol>
+        <h2>External image</h2>
+        <img src="https://images.pexels.com/photos/31778149/pexels-photo-31778149/free-photo-of-modern-glass-facade-with-cloud-reflections-in-rotterdam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1//" alt="Image of a story building" width="500" height="350">
+        <h2>HTML Tables</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>First name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>Mukoma Road</td>
+                    <td>0712345678</td>
+                    <td>johndoe@gmail.com</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Victor</td>
+                    <td>Wanyama</td>
+                    <td>Tom mboya</td>
+                    <td>0723456789</td>
+                    <td>victorwanyama@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Lilian</td>
+                    <td>Mwende</td>
+                    <td>Mopi avenue</td>
+                    <td>0787654321</td>
+                    <td>lilianmwende@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Bruce</td>
+                    <td>Okumu</td>
+                    <td>Harambee avenue</td>
+                    <td>0713579642</td>
+                    <td>Brucekumu@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Kalunda</td>
+                    <td>Haele selasie</td>
+                    <td>0798712364</td>
+                    <td>marylunda@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>REGISTRATION FORM</h2>
+        <!--  start of form  -->
+          <form>
+            <label for="full name">Full Name:</label>
+            <input type="text" id="full name" name="full name" required placeholder="your full name" >
+            <br><br>
+            <!--  email (required with validation)  -->
+            <lable for="email">Email:</lable>
+            <input type="email" id="email" name="email" required placeholder="yourname@gmail.com" >
+            <br><br>
+            <lebel for="password">Password:</lebel>
+            <input type="password" id="password" name="password" required placeholder="your password" >
+            <br><br>
+            <!-- Date of Birth (Required) -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male" required>Male
+            <input type="radio" name="gender" id="female" value="female" required>Female
+            <input type="radio" name="gender" id="other" value="other" required>Other
+            <br><br>
+            <!--  drop down  -->
+            <label>country:</label>
+            <select name="country" id="country" required>
+                <option>--Select Country--</option>
+                <option value="Uganda">Uganda</option>
+                <option value="South Africa">South Afric</option>
+                <option value="kenya">Kenya</option>
+                <option value="Botwana">Botwana</option>
+                <option value="Ghana">Ghana</option>
+            </select>
+            <br><br>
+            <!--  checkbox  -->
+            <label for="hobby">Hobbies:</label>
+            <Input type="checkbox" name="hobby" value="traveling"> Traveling
+            <Input type="checkbox" name="hobby" value="music"> Music
+            <Input type="checkbox" name="hobby" value="reading"> Reading
+            <Input type="checkbox" name="hobby" value="swimming"> Swimming
+                <br><br>
+                <button type="submit">Submit</button>
+                <input type="reset" value="councel/reset">
+          </form>
+    </body>
+</html>
